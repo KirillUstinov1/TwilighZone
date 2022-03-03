@@ -55,6 +55,9 @@ public class PlayerController : MonoBehaviour
     private float moveInputV;
     public float climbSpeed;
 
+    public float[,] posOfD;
+    private int counter;
+
     //Respawn info
     [HideInInspector]
     public Vector3 RespawnPoint = new Vector3();
@@ -72,6 +75,12 @@ public class PlayerController : MonoBehaviour
         myAnim = GetComponent<Animator>();
         myCollida = GetComponent<Collider2D>();
         jumps = extraJumps;
+        counter = 0;
+        posOfD = new float[3, 2] {
+            {10, 1},
+            {1, 1},
+            {1, 1}
+        };
 
         RespawnPoint = transform.position;
     }
@@ -214,9 +223,13 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Enemy") && controlson)
+        if (collision.gameObject.CompareTag("Enemy") && controlson)
         {
             StartCoroutine(OnDeath());
+        }
+        else if (collision.gameObject.CompareTag("dimension")) {
+            myRb.MovePosition(new Vector2(posOfD[counter, 1], posOfD[counter, 0]));
+            counter++;
         }
     }
 
