@@ -230,6 +230,8 @@ public class PlayerController : MonoBehaviour
             //Debug.Log("moving player to " + posOfD[counter, 0] + " " + posOfD[counter, 1]);
             transform.position = new Vector2(posOfD[counter, 0], posOfD[counter, 1]);
             //myRb.MovePosition(new Vector2(posOfD[counter, 0], posOfD[counter, 1]));
+            //respawn point setter on new level
+            RespawnPoint = transform.position;
             counter++;
         }
     }
