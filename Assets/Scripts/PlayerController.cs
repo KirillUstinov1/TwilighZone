@@ -251,6 +251,7 @@ public class PlayerController : MonoBehaviour
         controlson = true;
 
         transform.position = RespawnPoint;
+        GameManager.score++;
 
     }
 }

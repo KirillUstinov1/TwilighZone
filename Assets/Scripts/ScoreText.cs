@@ -16,7 +16,7 @@ public class ScoreText : MonoBehaviour
 
     private void ChangeText()
     {
-        myText.text = "Score: " + GameManager.score;
+        myText.text = "Deaths: " + GameManager.score;
        
     }
     // Update is called once per frame

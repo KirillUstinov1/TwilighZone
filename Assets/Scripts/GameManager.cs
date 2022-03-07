@@ -12,16 +12,16 @@ public class GameManager : MonoBehaviour
     public static UnityEvent ScoreUpdate = new UnityEvent();
 
     //score property and int behind it
-    private static int _score = 0;
+    private static int deaths = 0;
     public static int score
     {
         get
         {
-            return _score;
+            return deaths;
         }
         set
         {
-            _score = value;
+            deaths = value;
             ScoreUpdate.Invoke();
         }
     }
@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
 
     public static void ResetGame()
     {
-        score = 0;
+        deaths = 0;
     }
 
 }
