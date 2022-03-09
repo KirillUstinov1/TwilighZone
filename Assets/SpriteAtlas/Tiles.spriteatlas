@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 1725072
+    totalSpriteSurfaceArea: 3740304
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -358,6 +358,18 @@ SpriteAtlas:
   - {fileID: -3646319900970150289, guid: ea59d9309c5663d4aa2051f9048c21a5, type: 3}
   - {fileID: -1727045790224333528, guid: ea59d9309c5663d4aa2051f9048c21a5, type: 3}
   - {fileID: -8649922156836907887, guid: ea59d9309c5663d4aa2051f9048c21a5, type: 3}
+  - {fileID: -8679304975009700107, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: 3635138607436908404, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: 8541771982151157305, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: 3703209618626903351, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: 8880060593085377231, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: 4377749717284720671, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: -1346191004595366525, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: 3726559792448791131, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: -7210647097543833370, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: 4835133443377973737, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: -6948026300475054216, guid: 20cd536323856e145971ed265832f4b4, type: 3}
+  - {fileID: -8673727030888636348, guid: 20cd536323856e145971ed265832f4b4, type: 3}
   - {fileID: 21300000, guid: 3d3422054b0ae124ca660ca60f2ba6a2, type: 3}
   - {fileID: 3514179841738085791, guid: e82096357e84ea348a8c4d8cc31960bc, type: 3}
   - {fileID: -5913640652215768220, guid: e82096357e84ea348a8c4d8cc31960bc, type: 3}
@@ -1029,6 +1041,18 @@ SpriteAtlas:
   - {fileID: -9120630089538121617, guid: b9f3933b33f18f746931009cd3035300, type: 3}
   - {fileID: 5218580261869590449, guid: b9f3933b33f18f746931009cd3035300, type: 3}
   - {fileID: -1261548220001104836, guid: b9f3933b33f18f746931009cd3035300, type: 3}
+  - {fileID: 813628917418738859, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: 3652496455201692771, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: 4164842090208016421, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: 6888205791692678341, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: -2571604585404677057, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: -6997347507208391599, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: 5686571718703220172, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: 6503762443587882196, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: 517707612940661608, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: 4166647949637560284, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: -6770627315680330982, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
+  - {fileID: 381528604807951181, guid: 624150ecf589c3d48b56849f083b5cd6, type: 3}
   - {fileID: 1671283345461455480, guid: 950f927dbc9d7d146bfeab77e560f475, type: 3}
   - {fileID: -3638366375080524030, guid: 950f927dbc9d7d146bfeab77e560f475, type: 3}
   - {fileID: 3774374558072554424, guid: 950f927dbc9d7d146bfeab77e560f475, type: 3}
@@ -1577,6 +1601,18 @@ SpriteAtlas:
   - TilesDim1_81
   - TilesDim1_95
   - TilesDim1_65
+  - portal_pink_10
+  - portal_pink_11
+  - portal_pink_9
+  - portal_pink_8
+  - portal_pink_5
+  - portal_pink_4
+  - portal_pink_7
+  - portal_pink_6
+  - portal_pink_1
+  - portal_pink_0
+  - portal_pink_3
+  - portal_pink_2
   - DIM3
   - DIM1-Spikes_150
   - DIM1-Spikes_166
@@ -2248,6 +2284,18 @@ SpriteAtlas:
   - Dark VFX 2 (48x64)_6
   - Dark VFX 2 (48x64)_5
   - Dark VFX 2 (48x64)_4
+  - portal_blue_9
+  - portal_blue_8
+  - portal_blue_5
+  - portal_blue_4
+  - portal_blue_7
+  - portal_blue_6
+  - portal_blue_1
+  - portal_blue_0
+  - portal_blue_3
+  - portal_blue_2
+  - portal_blue_10
+  - portal_blue_11
   - rotating_coin_0
   - rotating_coin_1
   - rotating_coin_2
