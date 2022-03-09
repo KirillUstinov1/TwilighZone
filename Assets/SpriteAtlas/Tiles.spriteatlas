@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 3740304
+    totalSpriteSurfaceArea: 4969104
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -358,6 +358,18 @@ SpriteAtlas:
   - {fileID: -3646319900970150289, guid: ea59d9309c5663d4aa2051f9048c21a5, type: 3}
   - {fileID: -1727045790224333528, guid: ea59d9309c5663d4aa2051f9048c21a5, type: 3}
   - {fileID: -8649922156836907887, guid: ea59d9309c5663d4aa2051f9048c21a5, type: 3}
+  - {fileID: -5683327909029381457, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: -6424987384965843698, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: -2947061862471210982, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: 3713615135806869326, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: -2410497535752322709, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: 4203468137430285040, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: -5796376701678555675, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: -1242766809937972329, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: 5064437649746426556, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: 1753811508000804942, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: -6109298797158994044, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: 4152016933615034834, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
   - {fileID: -8679304975009700107, guid: 20cd536323856e145971ed265832f4b4, type: 3}
   - {fileID: 3635138607436908404, guid: 20cd536323856e145971ed265832f4b4, type: 3}
   - {fileID: 8541771982151157305, guid: 20cd536323856e145971ed265832f4b4, type: 3}
@@ -1601,6 +1613,18 @@ SpriteAtlas:
   - TilesDim1_81
   - TilesDim1_95
   - TilesDim1_65
+  - portal_gold_10
+  - portal_gold_11
+  - portal_gold_7
+  - portal_gold_6
+  - portal_gold_5
+  - portal_gold_4
+  - portal_gold_3
+  - portal_gold_2
+  - portal_gold_1
+  - portal_gold_0
+  - portal_gold_9
+  - portal_gold_8
   - portal_pink_10
   - portal_pink_11
   - portal_pink_9
