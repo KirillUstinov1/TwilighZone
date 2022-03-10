@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
 
     public float[,] posOfD;
     private int counter;
+    private AudioSource source;
 
     //Respawn info
     [HideInInspector]
@@ -73,6 +74,7 @@ public class PlayerController : MonoBehaviour
         myRb = GetComponent<Rigidbody2D>();
         myAud = GetComponent<AudioSource>();
         myAnim = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
         myCollida = GetComponent<Collider2D>();
         jumps = extraJumps;
         counter = 0;
@@ -253,5 +255,9 @@ public class PlayerController : MonoBehaviour
         transform.position = RespawnPoint;
         GameManager.score++;
         myAnim.Play("PlayerIdle");
+    }
+
+    public void playFootStep() {
+        source.PlayOneShot(source.clip);
     }
 }
