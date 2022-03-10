@@ -238,13 +238,13 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator OnDeath() {
         myRb.velocity = Vector2.zero;
-        myAnim.Play("PlayerDeath");
+        myAnim.Play("death");
         
         myRb.gravityScale = 0;
         myCollida.enabled = false;
         controlson = false;
 
-        yield return new WaitForSeconds(1.15f);
+        yield return new WaitForSeconds(0.8f);
 
         myRb.gravityScale = gravityScale;
         myCollida.enabled = true;
@@ -252,6 +252,6 @@ public class PlayerController : MonoBehaviour
 
         transform.position = RespawnPoint;
         GameManager.score++;
-
+        myAnim.Play("PlayerIdle");
     }
 }
