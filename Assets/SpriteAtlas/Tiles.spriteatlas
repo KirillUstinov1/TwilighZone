@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 9256510
+    totalSpriteSurfaceArea: 9756510
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -370,6 +370,7 @@ SpriteAtlas:
   - {fileID: 1753811508000804942, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
   - {fileID: -6109298797158994044, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
   - {fileID: 4152016933615034834, guid: a935a9d11cbe2b24ab3b8c193fda57e6, type: 3}
+  - {fileID: 21300000, guid: d6fd1492763f9cb4ab755c7d5c7a00b0, type: 3}
   - {fileID: -5808826860367903719, guid: 176e58926da72944bbb5f2ac525d40bb, type: 3}
   - {fileID: 5794915095903704115, guid: 176e58926da72944bbb5f2ac525d40bb, type: 3}
   - {fileID: 823485100544077219, guid: 176e58926da72944bbb5f2ac525d40bb, type: 3}
@@ -960,6 +961,9 @@ SpriteAtlas:
   - {fileID: -8771077076719219301, guid: a1a2e10871f0418479a4412eec308c8f, type: 3}
   - {fileID: 7358085502846176069, guid: a1a2e10871f0418479a4412eec308c8f, type: 3}
   - {fileID: 4920030709174903495, guid: a1a2e10871f0418479a4412eec308c8f, type: 3}
+  - {fileID: 21300000, guid: baf2513856ff79143b450b0528622c1f, type: 3}
+  - {fileID: 21300000, guid: 86158e78f722cce43a3ca6533021c13b, type: 3}
+  - {fileID: 21300000, guid: 5c9fa09816138ab4f819f20a3e5a0248, type: 3}
   - {fileID: 21300000, guid: c53b1149461f6714f980833688828b2a, type: 3}
   - {fileID: 7562716900497062, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: -7154765599751142846, guid: f99a3879764308a4d92d87d841829522, type: 3}
@@ -1055,6 +1059,7 @@ SpriteAtlas:
   - {fileID: -4344611882063969491, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: -5241486731584646207, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: 21300000, guid: bb0cab7a4e7214042a48ddb000a94408, type: 3}
+  - {fileID: 21300000, guid: a9ed73daf62a6e44bb8b7e4a492aa685, type: 3}
   - {fileID: -669512247467982665, guid: b9f3933b33f18f746931009cd3035300, type: 3}
   - {fileID: -4952163481679523252, guid: b9f3933b33f18f746931009cd3035300, type: 3}
   - {fileID: -153636820869997659, guid: b9f3933b33f18f746931009cd3035300, type: 3}
@@ -1647,6 +1652,7 @@ SpriteAtlas:
   - portal_gold_0
   - portal_gold_9
   - portal_gold_8
+  - frame0004
   - spritesheet_death_7
   - spritesheet_death_6
   - spritesheet_death_5
@@ -2237,6 +2243,9 @@ SpriteAtlas:
   - gamesprite_walk_2
   - gamesprite_walk_1
   - gamesprite_walk_0
+  - frame0003
+  - frame0000
+  - frame0001
   - DIM2
   - cavesofgallet_tiles_0
   - cavesofgallet_tiles_1
@@ -2332,6 +2341,7 @@ SpriteAtlas:
   - cavesofgallet_tiles_8
   - cavesofgallet_tiles_9
   - DIM1
+  - frame0002
   - Dark VFX 2 (48x64)_14
   - Dark VFX 2 (48x64)_12
   - Dark VFX 2 (48x64)_13
