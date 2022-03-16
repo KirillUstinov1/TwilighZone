@@ -58,7 +58,8 @@ public class PlayerController : MonoBehaviour
     public float[,] posOfD;
     private int counter;
     private AudioSource source;
-
+    public AudioClip PickUpNoise;
+    public AudioClip landing;
     //Respawn info
     [HideInInspector]
     public Vector3 RespawnPoint = new Vector3();
@@ -245,6 +246,8 @@ public class PlayerController : MonoBehaviour
         myRb.gravityScale = 0;
         myCollida.enabled = false;
         controlson = false;
+
+        source.PlayOneShot(PickUpNoise);
 
         yield return new WaitForSeconds(0.8f);
 
