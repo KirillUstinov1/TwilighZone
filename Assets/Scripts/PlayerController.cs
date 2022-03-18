@@ -79,7 +79,8 @@ public class PlayerController : MonoBehaviour
         myCollida = GetComponent<Collider2D>();
         jumps = extraJumps;
         counter = 0;
-        posOfD = new float[2, 2] {
+        posOfD = new float[3, 2] {
+            {1, -1}, 
             {94, -3},
             {196, -3}
         };
@@ -231,11 +232,12 @@ public class PlayerController : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("dimension")) {
             //Debug.Log("moving player to " + posOfD[counter, 0] + " " + posOfD[counter, 1]);
+            counter++;
             transform.position = new Vector2(posOfD[counter, 0], posOfD[counter, 1]);
             //myRb.MovePosition(new Vector2(posOfD[counter, 0], posOfD[counter, 1]));
             //respawn point setter on new level
             RespawnPoint = transform.position;
-            counter++;
+
         }
     }
 
@@ -262,5 +264,12 @@ public class PlayerController : MonoBehaviour
 
     public void playFootStep() {
         source.PlayOneShot(source.clip);
+    }
+
+    public void Restart() {
+        GameManager.score = 0;
+        counter = 0;
+        RespawnPoint = new Vector2(posOfD[0, 0], posOfD[0, 1]);
+        StartCoroutine(OnDeath());
     }
 }
