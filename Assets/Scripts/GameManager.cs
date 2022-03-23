@@ -12,7 +12,12 @@ public class GameManager : MonoBehaviour
     public static UnityEvent ScoreUpdate = new UnityEvent();
 
     //score property and int behind it
+
     private static int deaths = 0;
+    private static float Timer;
+    private static float lastTime = 0;
+    private static int lastDeaths = 0;
+    public static bool playing = true;
     public static int score
     {
         get
@@ -23,6 +28,21 @@ public class GameManager : MonoBehaviour
         {
             deaths = value;
             ScoreUpdate.Invoke();
+        }
+    }
+
+    public static string time1
+    {
+        get
+        {
+            int minutes = Mathf.FloorToInt(Timer / 60F);
+            int seconds = Mathf.FloorToInt(Timer % 60F);
+            int milliseconds = Mathf.FloorToInt((Timer * 100F) % 100F);
+            return (minutes.ToString("00") + ":" + seconds.ToString("00") + ":" + milliseconds.ToString("00"));
+        }
+        set
+        {
+            
         }
     }
 
@@ -55,11 +75,22 @@ public class GameManager : MonoBehaviour
         {
             Application.Quit();
         }
+        if (playing)
+        {
+            Timer += Time.deltaTime;
+        }
+        
     }
 
     public static void ResetGame()
     {
-        deaths = 0;
+        deaths = lastDeaths-1;
+        Timer = lastTime - 0.8f;
+        Debug.Log(Timer);
     }
 
+    public static void NewLevel() {
+        lastTime = Timer;
+        lastDeaths = deaths;
+    }
 }

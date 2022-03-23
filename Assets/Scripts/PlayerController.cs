@@ -237,7 +237,7 @@ public class PlayerController : MonoBehaviour
             //myRb.MovePosition(new Vector2(posOfD[counter, 0], posOfD[counter, 1]));
             //respawn point setter on new level
             RespawnPoint = transform.position;
-
+            
         }
     }
 
@@ -267,9 +267,11 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Restart() {
-        GameManager.score = 0;
+        //GameManager.score = -1;
+        
         counter = 0;
         RespawnPoint = new Vector2(posOfD[0, 0], posOfD[0, 1]);
         StartCoroutine(OnDeath());
+        GameManager.ResetGame();
     }
 }

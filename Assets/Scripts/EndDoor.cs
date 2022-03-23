@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 public class EndDoor : MonoBehaviour
 {
     public string LevelToLoad = "EndScene";
+    public bool lastPortal = false;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -22,6 +22,8 @@ public class EndDoor : MonoBehaviour
     {
         if(collision.gameObject.GetComponent<PlayerController>() != null)
         {
+            GameManager.playing = !lastPortal;
+            GameManager.NewLevel();
             SceneManager.LoadScene(LevelToLoad);
         }
     }

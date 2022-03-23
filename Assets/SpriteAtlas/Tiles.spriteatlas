@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 9756510
+    totalSpriteSurfaceArea: 13950814
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -957,6 +957,7 @@ SpriteAtlas:
   - {fileID: -1969950785677572028, guid: 9acb918754e26b94cabe58b09e254204, type: 3}
   - {fileID: -7009936418641864797, guid: 9acb918754e26b94cabe58b09e254204, type: 3}
   - {fileID: 3640084406876299100, guid: 9acb918754e26b94cabe58b09e254204, type: 3}
+  - {fileID: 21300000, guid: e2e7f28775e1d1d48b041b47f47d4336, type: 3}
   - {fileID: -849750475989925353, guid: a1a2e10871f0418479a4412eec308c8f, type: 3}
   - {fileID: -8771077076719219301, guid: a1a2e10871f0418479a4412eec308c8f, type: 3}
   - {fileID: 7358085502846176069, guid: a1a2e10871f0418479a4412eec308c8f, type: 3}
@@ -2239,6 +2240,7 @@ SpriteAtlas:
   - DIM3-Spikes_169
   - DIM3-Spikes_105
   - DIM3-Spikes_111
+  - arrow
   - gamesprite_walk_3
   - gamesprite_walk_2
   - gamesprite_walk_1
